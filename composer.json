@@ -2,9 +2,9 @@
     "name": "jianjye/php-cfstream",
     "description": "Upload and manage Cloudflare Stream easily",
     "require": {
-        "php": ">=5.5",
+        "php": ">=7.0",
         "guzzlehttp/guzzle": "^6.3",
-        "illuminate/support": "^5.7"
+        "illuminate/support": "^5.7|^6.0"
     },
     "authors": [
         {
