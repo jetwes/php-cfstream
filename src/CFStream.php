@@ -92,7 +92,7 @@ class CFStream
             throw new InvalidFileException();
         }
 
-        $response = $this->client->post("https://api.cloudflare.com/client/v4/zones/{$this->zone}/media", [
+        $response = $this->client->post("https://api.cloudflare.com/client/v4/accounts/{$this->zone}/media", [
             'headers' => [
                 'X-Auth-Key' => $this->key,
                 'X-Auth-Email' => $this->email,
