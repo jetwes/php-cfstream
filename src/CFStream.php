@@ -159,9 +159,9 @@ class CFStream
             ],
         ]);
 
-        if (204 != $response->getStatusCode()) {
+        /*if (204 != $response->getStatusCode()) {
             throw new OperationFailedException();
-        }
+        }*/
     }
 
     /**
